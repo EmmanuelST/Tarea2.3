@@ -48,5 +48,11 @@ namespace MainForm
             Capitulo7Ejercicio2 capitulo7Ejercicio2 = new Capitulo7Ejercicio2();
             capitulo7Ejercicio2.Show();
         }
+
+        private void Ejercicio5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Capitulo7Ejercicio5 capitulo7Ejercicio5 = new Capitulo7Ejercicio5();
+            capitulo7Ejercicio5.Show();
+        }
     }
 }
