@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MainForm.Ejercicios;
 using MainForm.Ejercicios.Capitulo7;
+using MainForm.Ejercicios.Capitulo8;
 
 namespace MainForm
 {
@@ -53,6 +54,18 @@ namespace MainForm
         {
             Capitulo7Ejercicio5 capitulo7Ejercicio5 = new Capitulo7Ejercicio5();
             capitulo7Ejercicio5.Show();
+        }
+
+        private void Ejercicio3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Capitulo8Ejercicio3 capitulo8Ejercicio3 = new Capitulo8Ejercicio3();
+            capitulo8Ejercicio3.Show();
+        }
+
+        private void Ejercicio5ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Capitulo8Ejercicio5 capitulo8Ejercicio5 = new Capitulo8Ejercicio5();
+            capitulo8Ejercicio5.Show();
         }
     }
 }
