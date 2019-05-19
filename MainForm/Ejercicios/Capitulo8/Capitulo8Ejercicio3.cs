@@ -24,18 +24,20 @@ namespace MainForm.Ejercicios.Capitulo8
 
         private void setTiempo()
         {
-            
-           
-            Horalabel.Text = DateTime.Now.ToShortTimeString();
-           // Thread.Sleep(10000);
-            setTiempo();
 
-            
+            Horalabel.Text = " " + DateTime.Now.ToShortTimeString() + "  "
+                + DateTime.Now.ToShortDateString();
+      
         }
 
         private void Iniciarbutton_Click(object sender, EventArgs e)
         {
             setTiempo();
+        }
+
+        private void Horalabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

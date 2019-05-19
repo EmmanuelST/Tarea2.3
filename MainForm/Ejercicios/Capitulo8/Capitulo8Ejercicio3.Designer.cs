@@ -46,19 +46,20 @@
             // Horalabel
             // 
             this.Horalabel.AutoSize = true;
-            this.Horalabel.Location = new System.Drawing.Point(25, 73);
+            this.Horalabel.Location = new System.Drawing.Point(30, 53);
             this.Horalabel.Name = "Horalabel";
-            this.Horalabel.Size = new System.Drawing.Size(35, 13);
+            this.Horalabel.Size = new System.Drawing.Size(98, 13);
             this.Horalabel.TabIndex = 1;
-            this.Horalabel.Text = "label2";
+            this.Horalabel.Text = "00:00  00/00/0000";
+            this.Horalabel.Click += new System.EventHandler(this.Horalabel_Click);
             // 
             // Iniciarbutton
             // 
-            this.Iniciarbutton.Location = new System.Drawing.Point(198, 62);
+            this.Iniciarbutton.Location = new System.Drawing.Point(199, 53);
             this.Iniciarbutton.Name = "Iniciarbutton";
-            this.Iniciarbutton.Size = new System.Drawing.Size(75, 23);
+            this.Iniciarbutton.Size = new System.Drawing.Size(75, 49);
             this.Iniciarbutton.TabIndex = 2;
-            this.Iniciarbutton.Text = "Iniciar";
+            this.Iniciarbutton.Text = "Mostrar Hora y Fecha";
             this.Iniciarbutton.UseVisualStyleBackColor = true;
             this.Iniciarbutton.Click += new System.EventHandler(this.Iniciarbutton_Click);
             // 
@@ -66,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 113);
+            this.ClientSize = new System.Drawing.Size(312, 138);
             this.Controls.Add(this.Iniciarbutton);
             this.Controls.Add(this.Horalabel);
             this.Controls.Add(this.label1);
